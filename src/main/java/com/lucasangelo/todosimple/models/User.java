@@ -87,6 +87,15 @@ public class User {
     }
 
 
+    public List<Task> getTasks() {
+        return this.tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
+
+
     @Override
     public int hashCode() {
         final int prime = 31;
